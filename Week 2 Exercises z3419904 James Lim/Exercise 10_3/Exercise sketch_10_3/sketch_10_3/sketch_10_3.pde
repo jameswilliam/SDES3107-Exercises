@@ -1,0 +1,15 @@
+size(700, 700);
+PImage myImage;
+PImage myImage2;
+myImage = loadImage("texturepng.png");
+myImage2 = loadImage("texturepng2.png");
+background(255);
+image(myImage, 0,0);
+tint(255, 150);
+image(myImage2, -20,0,400,400);
+tint(255, 150);
+image(myImage2, -20,0,600,200);
+tint(255, 150);
+image(myImage2, -20,0,300,300);
+tint(255, 150);
+image(myImage2, -20,0,200,300);
